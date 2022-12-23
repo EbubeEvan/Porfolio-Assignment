@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: purple;
+}
+
+#main-container{
+    margin: 1.3rem;
+    background-color: plum;
+    border-radius: 8px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+#navigation{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin-right: 2rem;
+    margin-top: 0.5em;
+}
+
+#work{
+    height: 0.7em;
+    padding: 0.5em 0.6em 1em;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(131, 37, 68, 0.5);
+    background-color: rgb(155, 52, 155);
+    color: azure;
+}
+
+#name{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(90, 20, 220);
+}
+
+#subdiv1{
+    margin: 5em 7em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 20em;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(131, 37, 68, 0.5);
+}
+
+#img-div{
+    margin-right: 10em;
+}
+
+#subdiv2{
+    display: flex;
+    margin: 0 7em ;
+}
+
+#career{
+    width: 30em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+}
+
+#skills-section{
+    margin-top: 4.4em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    margin-right: 2em;
+    border: 2px solid rgb(155, 52, 155);
+    height: 0.7em;
+    padding: 0.5em 0.6em 1em;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(131, 37, 68, 0.5)
+}
+
+.text{
+    font-size: 18px;
+}
